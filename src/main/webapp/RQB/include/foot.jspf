@@ -1,0 +1,2 @@
+<%@ page pageEncoding="UTF-8" %>
+<script src="${pageContext.request.contextPath}/RQB/js/ui.js"></script>  
