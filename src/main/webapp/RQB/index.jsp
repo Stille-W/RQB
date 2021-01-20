@@ -20,7 +20,7 @@
                     <h2>Request Board</h2>
                 </div>
                 
-                <img src="${pageContext.request.contextPath}/RQB/images/portfolio.png" width="100%">
+                <img src="${pageContext.request.contextPath}/RQB/images/RQB.png" width="100%">
                 
             </div>
         </div>

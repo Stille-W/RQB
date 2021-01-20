@@ -8,20 +8,14 @@
         <script>
             $(document).ready(function () {
                 watchList();
-                // 走勢圖
-                $("#myTable").on("click", "tr td:nth-child(3)", function () {
-                    var symbol = $(this).text();
-                    //alert(symbol);
-                    queryHistQuotes(symbol);
-                });
                 // 下單
-                $("#myTable").on("click", "tr td:nth-child(10)", function () {
+                $("#myTable").on("click", "tr td:nth-child(8)", function () {
                     var item_id = $(this).attr('item_id');
                     if (item_id == '') return;
                     if (confirm("是否要購買？")) {
                         amount = prompt("請輸入購買量");
                         if(amount == null) return;
-                        if(parseInt(amount) % 1 != 0 || amount<=0) {
+                        if(amount % 1 != 0 || amount<=0) {
                             alert('請輸入大於0的整數');
                             return;
                         }
@@ -48,7 +42,7 @@
                                 '<td align="center">{0}</td><td>{1}</td><td>{2}</td>' +
                                 '<td align="right">{3}</td><td align="right">{4}</td>' +
                                 '<td align="right">{5}</td><td>{6}</td>' +
-                                '<td tstock_id="{7}">{8}</td>' +
+                                '<td item_id="{7}">{8}</td>' +
                                 '</tr>';
                         var item_id = "";
                         var buybtn_html = " ";

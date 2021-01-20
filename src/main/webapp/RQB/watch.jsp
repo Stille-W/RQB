@@ -176,7 +176,7 @@
                         <div class="content">
                             <form class="pure-form">
                                 <fieldset>
-                                    <legend><h2 class="content-subhead">資料列表(TStock List)</h2></legend>
+                                    <legend><h2 class="content-subhead">資料列表(Item List)</h2></legend>
                                     <table id="myTable2" class="pure-table pure-table-bordered">
                                         <thead>
                                             <tr>
