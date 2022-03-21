@@ -1,7 +1,7 @@
 # RQB - Request Board (WIP)
 > To let users (or in this case are requestors) order requests or know what they ordered easilier and more clearly.
 
-- using java, tomcat, Spring frame, Apache Derby (JAVA DB), and javascript.
+- using java, tomcat, Spring frame, MySQL, and javascript.
 - including Database, MVC, and CRUD concept.
 - Front-end by http://purecss.io
 ----
